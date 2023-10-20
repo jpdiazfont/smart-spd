@@ -1,0 +1,29 @@
+#navbar {
+  .logo{
+    height: 65px;
+  }
+  .navbar-bubble{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .navbar-option{
+    transition: ease-in-out 0.2ms;
+    cursor: pointer;
+  }
+  .navbar-option.active{
+    transition: ease-in-out 0.2ms;
+    background: #fff !important;
+    color: #0f172a !important;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    font-weight: 500;
+  }
+  .icon-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

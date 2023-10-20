@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+}
+.min-h-80-svh{
+  min-height: 80svh;
+}
+.min-h-90-svh{
+  min-height: 90svh;
+}
